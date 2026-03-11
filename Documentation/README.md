@@ -83,7 +83,7 @@ C++ Case Study/
 ### Compile
 ```bash
 clang++ -std=c++17 main.cpp Loan.cpp EMICalculator.cpp LoanManager.cpp \
-LoanApplicant.cpp CreditScoreCalculator.cpp EligibilityChecker.cpp \
+LoanApplicant.cpp CreditScoreCal.cpp EligibilityChecker.cpp \
 InterestRateEngine.cpp EMISchedule.cpp Transaction.cpp CreditCard.cpp \
 AnomalyDetector.cpp CardManager.cpp -o main
 ```
