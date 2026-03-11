@@ -3,7 +3,7 @@
 
 double EMICalculator::calculate(double principal, double annualRate,
                                 int months) {
-  double r = (annualRate / 100.0) / 12.0; // convert to monthly rate
+  double r = (annualRate / 100.0) / 12.0; // converts to monthly rate BKL
   double emi = (principal * r * pow(1 + r, months)) / (pow(1 + r, months) - 1);
   return emi;
 }
